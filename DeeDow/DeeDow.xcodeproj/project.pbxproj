@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910523DE1AEAA0870070623D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910523DD1AEAA0870070623D /* main.m */; };
+		910523E11AEAA0870070623D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910523E01AEAA0870070623D /* AppDelegate.m */; };
+		910523E41AEAA0870070623D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910523E31AEAA0870070623D /* ViewController.m */; };
+		910523E71AEAA0870070623D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910523E51AEAA0870070623D /* Main.storyboard */; };
+		910523E91AEAA0870070623D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910523E81AEAA0870070623D /* Images.xcassets */; };
+		910523EC1AEAA0870070623D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910523EA1AEAA0870070623D /* LaunchScreen.xib */; };
+		910523F81AEAA0880070623D /* DeeDowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 910523F71AEAA0880070623D /* DeeDowTests.m */; };
+		910524031AEAA0F90070623D /* deeProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 910524021AEAA0F90070623D /* deeProgress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		910523F21AEAA0880070623D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910523D01AEAA0870070623D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910523D71AEAA0870070623D;
+			remoteInfo = DeeDow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		910523D81AEAA0870070623D /* DeeDow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeeDow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910523DC1AEAA0870070623D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910523DD1AEAA0870070623D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		910523DF1AEAA0870070623D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		910523E01AEAA0870070623D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		910523E21AEAA0870070623D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		910523E31AEAA0870070623D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		910523E61AEAA0870070623D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		910523E81AEAA0870070623D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		910523EB1AEAA0870070623D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		910523F11AEAA0880070623D /* DeeDowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeDowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		910523F61AEAA0880070623D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910523F71AEAA0880070623D /* DeeDowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeeDowTests.m; sourceTree = "<group>"; };
+		910524011AEAA0F90070623D /* deeProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deeProgress.h; sourceTree = "<group>"; };
+		910524021AEAA0F90070623D /* deeProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deeProgress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910523D51AEAA0870070623D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910523EE1AEAA0880070623D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910523CF1AEAA0870070623D = {
+			isa = PBXGroup;
+			children = (
+				910523DA1AEAA0870070623D /* DeeDow */,
+				910523F41AEAA0880070623D /* DeeDowTests */,
+				910523D91AEAA0870070623D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		910523D91AEAA0870070623D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910523D81AEAA0870070623D /* DeeDow.app */,
+				910523F11AEAA0880070623D /* DeeDowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910523DA1AEAA0870070623D /* DeeDow */ = {
+			isa = PBXGroup;
+			children = (
+				910523DF1AEAA0870070623D /* AppDelegate.h */,
+				910523E01AEAA0870070623D /* AppDelegate.m */,
+				910523E21AEAA0870070623D /* ViewController.h */,
+				910523E31AEAA0870070623D /* ViewController.m */,
+				910523E51AEAA0870070623D /* Main.storyboard */,
+				910524011AEAA0F90070623D /* deeProgress.h */,
+				910524021AEAA0F90070623D /* deeProgress.m */,
+				910523E81AEAA0870070623D /* Images.xcassets */,
+				910523EA1AEAA0870070623D /* LaunchScreen.xib */,
+				910523DB1AEAA0870070623D /* Supporting Files */,
+			);
+			path = DeeDow;
+			sourceTree = "<group>";
+		};
+		910523DB1AEAA0870070623D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				910523DC1AEAA0870070623D /* Info.plist */,
+				910523DD1AEAA0870070623D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		910523F41AEAA0880070623D /* DeeDowTests */ = {
+			isa = PBXGroup;
+			children = (
+				910523F71AEAA0880070623D /* DeeDowTests.m */,
+				910523F51AEAA0880070623D /* Supporting Files */,
+			);
+			path = DeeDowTests;
+			sourceTree = "<group>";
+		};
+		910523F51AEAA0880070623D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				910523F61AEAA0880070623D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910523D71AEAA0870070623D /* DeeDow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910523FB1AEAA0880070623D /* Build configuration list for PBXNativeTarget "DeeDow" */;
+			buildPhases = (
+				910523D41AEAA0870070623D /* Sources */,
+				910523D51AEAA0870070623D /* Frameworks */,
+				910523D61AEAA0870070623D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeeDow;
+			productName = DeeDow;
+			productReference = 910523D81AEAA0870070623D /* DeeDow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		910523F01AEAA0880070623D /* DeeDowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910523FE1AEAA0880070623D /* Build configuration list for PBXNativeTarget "DeeDowTests" */;
+			buildPhases = (
+				910523ED1AEAA0880070623D /* Sources */,
+				910523EE1AEAA0880070623D /* Frameworks */,
+				910523EF1AEAA0880070623D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				910523F31AEAA0880070623D /* PBXTargetDependency */,
+			);
+			name = DeeDowTests;
+			productName = DeeDowTests;
+			productReference = 910523F11AEAA0880070623D /* DeeDowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910523D01AEAA0870070623D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zjsruxxxy7;
+				TargetAttributes = {
+					910523D71AEAA0870070623D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					910523F01AEAA0880070623D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 910523D71AEAA0870070623D;
+					};
+				};
+			};
+			buildConfigurationList = 910523D31AEAA0870070623D /* Build configuration list for PBXProject "DeeDow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 910523CF1AEAA0870070623D;
+			productRefGroup = 910523D91AEAA0870070623D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910523D71AEAA0870070623D /* DeeDow */,
+				910523F01AEAA0880070623D /* DeeDowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910523D61AEAA0870070623D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910523E71AEAA0870070623D /* Main.storyboard in Resources */,
+				910523EC1AEAA0870070623D /* LaunchScreen.xib in Resources */,
+				910523E91AEAA0870070623D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910523EF1AEAA0880070623D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910523D41AEAA0870070623D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910523E41AEAA0870070623D /* ViewController.m in Sources */,
+				910523E11AEAA0870070623D /* AppDelegate.m in Sources */,
+				910523DE1AEAA0870070623D /* main.m in Sources */,
+				910524031AEAA0F90070623D /* deeProgress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910523ED1AEAA0880070623D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910523F81AEAA0880070623D /* DeeDowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		910523F31AEAA0880070623D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910523D71AEAA0870070623D /* DeeDow */;
+			targetProxy = 910523F21AEAA0880070623D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		910523E51AEAA0870070623D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910523E61AEAA0870070623D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		910523EA1AEAA0870070623D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910523EB1AEAA0870070623D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910523F91AEAA0880070623D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		910523FA1AEAA0880070623D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		910523FC1AEAA0880070623D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeeDow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		910523FD1AEAA0880070623D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeeDow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		910523FF1AEAA0880070623D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeeDowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeeDow.app/DeeDow";
+			};
+			name = Debug;
+		};
+		910524001AEAA0880070623D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeeDowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeeDow.app/DeeDow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910523D31AEAA0870070623D /* Build configuration list for PBXProject "DeeDow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910523F91AEAA0880070623D /* Debug */,
+				910523FA1AEAA0880070623D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910523FB1AEAA0880070623D /* Build configuration list for PBXNativeTarget "DeeDow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910523FC1AEAA0880070623D /* Debug */,
+				910523FD1AEAA0880070623D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		910523FE1AEAA0880070623D /* Build configuration list for PBXNativeTarget "DeeDowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910523FF1AEAA0880070623D /* Debug */,
+				910524001AEAA0880070623D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 910523D01AEAA0870070623D /* Project object */;
+}
